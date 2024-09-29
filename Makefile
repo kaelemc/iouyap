@@ -28,7 +28,7 @@ CFLAGS += -Wall
 LDLIBS = -lpthread
 
 YACC = bison -y
-YFLAGS = -d
+YFLAGS = -d -Wno-yacc
 
 LEX = flex
 
